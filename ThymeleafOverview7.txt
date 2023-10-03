@@ -1,0 +1,14 @@
+Java Template engine for both Web and Standalone Envo.
+Capable of processing HTML,XML,JS,CSS and plain Text.(i.e. we can write part of our 
+code in any of above lang)
+Rendering/Evaluation will be on Server side
+Content will come from Server->Client side
+Used to generate views in most of Web Apps
+Mainly used for Dynamic Web Content Purpose
+File will be saved in form of .html only
+
+index.html = html + Thymeleaf Expression(Executed by Thymeleaf Engine;Dynamic Content)
+Thymeleaf Expression can access Java Code, Object & Spring Beans
+Thymeleaf Engine will parse Thymeleaf Template
+e.g. th:text="${c.email}" ==> now here the vars will be replaced by Java Data
+e.g.<p th:text="${name}"> => <p>Durgesh</p>
