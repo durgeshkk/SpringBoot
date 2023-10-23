@@ -1,8 +1,0 @@
-com\springboot\service\CRUDviewer.class
-com\springboot\service\CRUDupdate.class
-com\springboot\service\CRUDcreate.class
-com\springboot\controller\TaskManagerController.class
-com\springboot\dao\TaskManageRepository.class
-com\springboot\TaskManager.class
-com\springboot\service\CRUDdelete.class
-com\springboot\Entities\TasksEntities.class
